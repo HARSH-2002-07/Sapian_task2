@@ -1,0 +1,27 @@
+[0.359s] Invoking command in '/home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance': PYTHONPATH=/home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build --no-deps symlink_data
+[0.508s] running develop
+[0.596s] running egg_info
+[0.596s] creating dynamic_obstacle_avoidance.egg-info
+[0.596s] writing dynamic_obstacle_avoidance.egg-info/PKG-INFO
+[0.596s] writing dependency_links to dynamic_obstacle_avoidance.egg-info/dependency_links.txt
+[0.596s] writing entry points to dynamic_obstacle_avoidance.egg-info/entry_points.txt
+[0.596s] writing requirements to dynamic_obstacle_avoidance.egg-info/requires.txt
+[0.596s] writing top-level names to dynamic_obstacle_avoidance.egg-info/top_level.txt
+[0.596s] writing manifest file 'dynamic_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.597s] reading manifest file 'dynamic_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.597s] writing manifest file 'dynamic_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.598s] running build_ext
+[0.598s] Creating /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages/dynamic-obstacle-avoidance.egg-link (link to .)
+[0.599s] Installing obstacle_spawner script to /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/dynamic_obstacle_avoidance
+[0.599s] Installing simple_controller script to /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/dynamic_obstacle_avoidance
+[0.599s] 
+[0.599s] Installed /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance
+[0.599s] running symlink_data
+[0.599s] creating /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/share/ament_index
+[0.599s] creating /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/share/ament_index/resource_index
+[0.599s] creating /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/share/ament_index/resource_index/packages
+[0.599s] symbolically linking /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/resource/dynamic_obstacle_avoidance -> /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/share/ament_index/resource_index/packages
+[0.599s] symbolically linking /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/package.xml -> /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/share/dynamic_obstacle_avoidance
+[0.599s] creating /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/share/dynamic_obstacle_avoidance/launch
+[0.599s] symbolically linking /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/launch/complete_simulation.launch.py -> /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/share/dynamic_obstacle_avoidance/launch
+[0.615s] Invoked command in '/home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance' returned '0': PYTHONPATH=/home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build --no-deps symlink_data

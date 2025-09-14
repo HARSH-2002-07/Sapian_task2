@@ -1,0 +1,4 @@
+[console_scripts]
+obstacle_spawner = dynamic_obstacle_avoidance.obstacle_spawner:main
+simple_controller = dynamic_obstacle_avoidance.simple_controller:main
+
