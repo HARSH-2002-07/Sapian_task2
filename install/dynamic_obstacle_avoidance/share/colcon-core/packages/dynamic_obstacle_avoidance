@@ -1,1 +1,1 @@
-gazebo_msgs:geometry_msgs:nav2_msgs:nav2_simple_commander:rclpy:sensor_msgs:std_msgs:tf2_ros:visualization_msgs
+gazebo_msgs:geometry_msgs:nav2_msgs:nav2_simple_commander:nav_msgs:numpy:rclpy:sensor_msgs:std_msgs:tf2_ros:visualization_msgs

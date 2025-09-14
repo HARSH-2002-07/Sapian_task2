@@ -27,6 +27,8 @@ setup(
         'console_scripts': [
             'obstacle_spawner = dynamic_obstacle_avoidance.obstacle_spawner:main',
             'simple_controller = dynamic_obstacle_avoidance.simple_controller:main',
+            'astar_navigation_controller = dynamic_obstacle_avoidance.astar_navigation_controller:main',
+            'goal_setter = dynamic_obstacle_avoidance.goal_setter:main',
         ],
     },
 )

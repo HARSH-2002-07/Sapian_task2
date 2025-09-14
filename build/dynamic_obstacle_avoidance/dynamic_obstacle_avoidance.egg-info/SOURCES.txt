@@ -9,8 +9,13 @@ setup.py
 ../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info/top_level.txt
 ../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info/zip-safe
 dynamic_obstacle_avoidance/__init__.py
+dynamic_obstacle_avoidance/astar_navigation_controller.py
+dynamic_obstacle_avoidance/debug_topics.py
+dynamic_obstacle_avoidance/goal_setter.py
 dynamic_obstacle_avoidance/obstacle_spawner.py
 dynamic_obstacle_avoidance/simple_controller.py
+dynamic_obstacle_avoidance/simple_move_test.py
+launch/astar.launch.py
 launch/complete_simulation.launch.py
 resource/dynamic_obstacle_avoidance
 test/test_copyright.py
