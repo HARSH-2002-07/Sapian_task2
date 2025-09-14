@@ -24,45 +24,41 @@ def generate_launch_description():
         TimerAction(
             period=5.0,
             actions=[
-                # Launch A* navigation controller (replaces simple_controller)
+                # Launch bounded A* navigation controller
                 Node(
-                    package='dynamic_obstacle_avoidance',  # Your package name
-                    executable='astar_navigation_controller',  # New A* executable
+                    package='dynamic_obstacle_avoidance',
+                    executable='astar_navigation_controller',
                     name='astar_navigation_controller',
                     output='screen',
                     parameters=[{
+                        'boundary_min_x': -3.0,
+                        'boundary_max_x': 3.0,
+                        'boundary_min_y': -3.0,
+                        'boundary_max_y': 3.0,
                         'linear_speed': 0.25,
                         'angular_speed': 0.6,
-                        'obstacle_threshold': 0.8,
-                        'area_bounds': 4.0,
-                        'replan_interval': 2.0,
-                        'goal_tolerance': 0.3
+                        'obstacle_threshold': 1.5,
+                        'goal_tolerance': 0.3,
+                        'waypoint_reached_tolerance': 0.4
                     }]
                 ),
                 
-                # Launch obstacle spawner (unchanged)
+                # Launch bounded obstacle spawner
                 Node(
                     package='dynamic_obstacle_avoidance',
                     executable='obstacle_spawner',
-                    name='dynamic_obstacle_spawner',
+                    name='obstacle_spawner',
                     output='screen',
                     parameters=[{
-                        'spawn_interval': 5.0,
-                        'delete_after': 15.0
+                        'spawn_interval': 4.0,
+                        'delete_after': 12.0,
+                        'max_obstacles': 6
                     }]
-                ),
-                
-                # Goal setter node for easy testing
-                Node(
-                    package='dynamic_obstacle_avoidance',
-                    executable='goal_setter',
-                    name='goal_setter',
-                    output='screen'
                 )
             ]
         ),
         
-        # Launch RViz with custom config for A* visualization
+        # Launch RViz with navigation visualization
         TimerAction(
             period=8.0,
             actions=[
