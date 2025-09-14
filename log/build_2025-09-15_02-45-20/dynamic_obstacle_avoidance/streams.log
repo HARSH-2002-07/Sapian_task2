@@ -1,0 +1,34 @@
+[0.460s] Invoking command in '/home/kits/turtlebot3_ws/src/dynamic_obstacle_avoidance': PYTHONPATH=/home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_obstacle_avoidance build --build-base /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build install --record /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/install.log --single-version-externally-managed install_data
+[0.593s] running egg_info
+[0.594s] writing ../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info/PKG-INFO
+[0.594s] writing dependency_links to ../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info/dependency_links.txt
+[0.594s] writing entry points to ../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info/entry_points.txt
+[0.594s] writing requirements to ../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info/requires.txt
+[0.594s] writing top-level names to ../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info/top_level.txt
+[0.595s] reading manifest file '../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.596s] writing manifest file '../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.596s] running build
+[0.596s] running build_py
+[0.596s] copying dynamic_obstacle_avoidance/obstacle_spawner.py -> /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build/lib/dynamic_obstacle_avoidance
+[0.596s] copying dynamic_obstacle_avoidance/goal_setter.py -> /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build/lib/dynamic_obstacle_avoidance
+[0.596s] copying dynamic_obstacle_avoidance/astar_navigation_controller.py -> /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build/lib/dynamic_obstacle_avoidance
+[0.596s] running install
+[0.597s] running install_lib
+[0.597s] copying /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build/lib/dynamic_obstacle_avoidance/obstacle_spawner.py -> /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages/dynamic_obstacle_avoidance
+[0.597s] copying /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build/lib/dynamic_obstacle_avoidance/goal_setter.py -> /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages/dynamic_obstacle_avoidance
+[0.597s] copying /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build/lib/dynamic_obstacle_avoidance/astar_navigation_controller.py -> /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages/dynamic_obstacle_avoidance
+[0.597s] byte-compiling /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages/dynamic_obstacle_avoidance/obstacle_spawner.py to obstacle_spawner.cpython-310.pyc
+[0.598s] byte-compiling /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages/dynamic_obstacle_avoidance/goal_setter.py to goal_setter.cpython-310.pyc
+[0.598s] byte-compiling /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages/dynamic_obstacle_avoidance/astar_navigation_controller.py to astar_navigation_controller.cpython-310.pyc
+[0.601s] running install_data
+[0.601s] copying launch/astar.launch.py -> /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/share/dynamic_obstacle_avoidance/launch
+[0.601s] running install_egg_info
+[0.602s] removing '/home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages/dynamic_obstacle_avoidance-0.0.0-py3.10.egg-info' (and everything under it)
+[0.602s] Copying ../../build/dynamic_obstacle_avoidance/dynamic_obstacle_avoidance.egg-info to /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages/dynamic_obstacle_avoidance-0.0.0-py3.10.egg-info
+[0.602s] running install_scripts
+[0.614s] Installing astar_navigation_controller script to /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/dynamic_obstacle_avoidance
+[0.614s] Installing goal_setter script to /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/dynamic_obstacle_avoidance
+[0.614s] Installing obstacle_spawner script to /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/dynamic_obstacle_avoidance
+[0.614s] Installing simple_controller script to /home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/dynamic_obstacle_avoidance
+[0.614s] writing list of installed files to '/home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/install.log'
+[0.634s] Invoked command in '/home/kits/turtlebot3_ws/src/dynamic_obstacle_avoidance' returned '0': PYTHONPATH=/home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kits/turtlebot3_ws/install/dynamic_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_obstacle_avoidance build --build-base /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/build install --record /home/kits/turtlebot3_ws/build/dynamic_obstacle_avoidance/install.log --single-version-externally-managed install_data
